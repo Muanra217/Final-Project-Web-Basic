@@ -1,0 +1,109 @@
+
+nav {
+    background-color: rgb(253, 136, 155);
+}
+
+.jumbotron, #content1 .card {
+    background-color: rgb(252, 220, 225);
+}
+
+.jumbotron img {
+    padding-top: 0px;
+    display: block;
+    width: 700px;
+    height: 400px;
+}
+
+.jumbotron h2 {
+    font-family: fantasy;
+}
+
+.awal {
+    margin-bottom: 50px;
+}
+
+#content1 h3 {
+    font-weight: bold;
+}
+
+#content1 .row, #content2 .row {
+    margin-bottom: 10px;
+}
+
+#content1 img {
+    width: 286px;
+    height: 214px;
+}
+
+#content2 h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#content2 a, #content2 a:hover {
+    color: black;
+}
+
+footer {
+    background-color: rgb(253, 136, 155);
+    color: white;
+    padding: 2px;
+    font-weight: bold;
+}
+
+#flower1, #flower2, #flower3, #flower4 {
+    width: 0;
+    height: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 9999;
+    top: 0;
+    transition: 1s;
+}
+
+#flower1:target, #flower2:target, #flower3:target, #flower4:target {
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+    width: auto;
+    height: auto;
+}
+
+#bg-flower {
+    background-color: white;
+    overflow: auto;
+    width: 60%;
+    max-height: 50%;
+    margin: auto;
+    transform: translateY(50%);
+    padding: 0 20px 20px;
+    border-radius: 10px;
+}
+
+.img-flower {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+#flower1 .close, #flower2 .close, #flower3 .close, #flower4 .close {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 15%;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(253, 136, 155);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+.pesan-sekarang {
+    background-color: rgb(253, 136, 155);
+    color: white;
+    border-color: white;
+}
